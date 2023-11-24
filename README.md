@@ -5,7 +5,7 @@ Vaším úkolem je vytvořit 5 funkcí (+ potenciálně jednu bonusovou)
 -   stačí vytvořit nezávislé funkce - není potřeba vytvářet logiku, která bude funkce spouštět
 -   aneb není potřeba vytvářet funkci `main()`, popř. pokud ji vytvoříte může být prázdná (respektive obsahovat příkaz `pass`, aby nevyhazovala chybu)
 -   některé funkce budou podobné/stejné jako ty, které jsme vytvářeli naposledy v hodině - můžete použít svou práci z hodiny, ale pro zopakování látky bych doporučoval vše vytvořit znovu
--   nemusíte použít předvytvořené názvy funkcí z [bludistaci.py]("/bludistaci.py"), můžete použít své (např pokud preferujete anglické názvy - doporučuji)
+-   nemusíte použít předvytvořené názvy funkcí z [bludistaci.py](/bludistaci.py), můžete použít své (např pokud preferujete anglické názvy - doporučuji)
 -   všechny funkce předpokládají existenci dictionary (slovníku):
 
 ```py
