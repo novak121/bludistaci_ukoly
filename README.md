@@ -2,8 +2,8 @@
 
 Vaším úkolem je vytvořit 5 funkce níže (+ 1 bonusová)
 
--   stačí vytvořit nezávislé funkce
--   jako bonus je můžete propojit do funkčního programu, ale to není povinné, na to se podíváme v hodině
+-   stačí vytvořit nezávislé funkce - není potřeba vytvářet logiku, která bude funkce spouštět
+-   aneb není potřeba vytvářet funkci `main()`, popř. pokud ji vytvoříte může být prázdná (respektive obsahovat příkaz `pass`, aby nevyhazovala chybu)
 -   některé funcke budou podobné/stejné jako ty, které jsme vytvářeli naposeldy v hodině - můžete použít svou práci z hodiny, ale pro zopakování látky bych doporučoval vše vytvořit znovu
 -   všechny funkce předpokládají existenci dictionairy (slovníku):
 
@@ -79,7 +79,7 @@ Přidej studentka/ku: Doubrevka
 Doubravka 1
 ```
 
-# bonusová 6. funkce vypiš studenta/ku s nejvyšším počtem bludišťáků
+# 6. dobrovolná bonusová funkce vypiš studenta/ku s nejvyšším počtem bludišťáků
 
 -   funkce vypíše studenta/ku s nejvyšším počtem bludišťáků
 
