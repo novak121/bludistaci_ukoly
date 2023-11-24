@@ -58,7 +58,7 @@ Komu chceš přidat bludšiťáka?: Hvězdoslava
 Hvěždoslava 2
 ```
 
-# 4. funcke odeber bludišťáka
+# 4. funkce odeber bludišťáka
 
 -   po špuštění se funkce zeptá na jméno a danému jedinci odebere bludišťáka
 -   funkce vypíše jméno a aktualizovaný počet
