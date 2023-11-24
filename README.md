@@ -11,7 +11,7 @@ Vaším úkolem je vytvořit 5 funkcí (+ potenciálně jednu bonusovou)
 -   všechny funkce předpokládají existenci dictionary (slovníku):
 
 ```py
-bludistaci {
+bludistaci = {
    "Božetěch": 1,
    "Želmíra": 3,
    "Andělín": 2,
