@@ -1,6 +1,6 @@
 # Úkoly - Bludišťáci
 
-Vaším úkolem je vytvořit 5 funkce níže (+ 1 bonusová)
+Vaším úkolem je vytvořit 5 funkcí níže (+ 1 bonusová)
 
 -   stačí vytvořit nezávislé funkce - není potřeba vytvářet logiku, která bude funkce spouštět
 -   aneb není potřeba vytvářet funkci `main()`, popř. pokud ji vytvoříte může být prázdná (respektive obsahovat příkaz `pass`, aby nevyhazovala chybu)
