@@ -78,7 +78,7 @@ Andělín 1
 Output:
 
 ```
-Přidej studentka/ku: Doubrevka
+Přidej studentka/ku: Doubravka
 Doubravka 1
 ```
 
