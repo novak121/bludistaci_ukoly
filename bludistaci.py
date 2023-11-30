@@ -7,25 +7,52 @@ bludistaci = {
 
 
 def vypisBludistakyPro():
-    print("tohle je placeholder, můžeš mě smazat")
-    
+    jmeno = input("Koho chceš zkontrolovat?: ")
+    if jmeno in bludistaci:
+        pocet_bludistaku = bludistaci[jmeno]
+        print(f"{jmeno} {pocet_bludistaku}")
+        
+vypisBludistakyPro()
     
 def vypisVse():
-    print("tohle je placeholder, můžeš mě smazat")   
+    for jmeno, pocet_bludistaku in bludistaci.items():
+        print(f"{jmeno} {pocet_bludistaku}")
 
+vypisVse()
 
 def pridejBludistaka():
-    print("tohle je placeholder, můžeš mě smazat")
+    jmeno = input("Komu chceš přidat bludšiťáka?: ")
     
+    if jmeno in bludistaci:
+        bludistaci[jmeno] += 1
+    
+    print(f"{jmeno} {bludistaci[jmeno]}")
+
+pridejBludistaka()
 
 def odeberBludistaka():
-    print("tohle je placeholder, můžeš mě smazat")
- 
+    jmeno = input("Komu chceš přidat bludšiťáka?: ")
+    
+    if jmeno in bludistaci and bludistaci[jmeno] > 0:
+        bludistaci[jmeno] -= 1
+        print(f"{jmeno} {bludistaci[jmeno]}")
+
+odeberBludistaka()
     
 def pridejStudenta():
-    print("tohle je placeholder, můžeš mě smazat")
+    jmeno = input("Přidej studentka/ku: ")
+    
+    if jmeno not in bludistaci:
+        bludistaci[jmeno] = 1
+        print(f"{jmeno} {bludistaci[jmeno]}")
+
+pridejStudenta()
 
 
 def nejvyssiSkore():
-    print("tohle je placeholder, můžeš mě smazat")
+    nejvyssi_student = max(bludistaci, key=bludistaci.get)
+    pocet_bludistaku = bludistaci[nejvyssi_student]
+    print(f"Nejvíce bludišťáků nasbíral/a:\n{nejvyssi_student} {pocet_bludistaku}")
+
+nejvyssiSkore()
 
